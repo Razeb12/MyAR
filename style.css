@@ -180,6 +180,7 @@ h1.header {
     
 }
 
+
 #demo {
     color: #3E6896;
     text-align: center;
@@ -299,6 +300,13 @@ h1.header3 {
     * {
         overflow-x: hidden;
     }
+     .test {
+         text-align: center;
+         color: black;
+         font-size: large;
+     }
+
+}
 
 
 
@@ -323,7 +331,13 @@ h1.header3 {
     * {
         overflow-x: hidden;
     }
-
+   .test {
+       text-align: center;
+       color: black;
+       font-size: medium;
+   }
+}
+  
 
 @media only screen and (max-width: 752px) {
     .navbar .navbar-nav {
@@ -372,6 +386,14 @@ h1.header3 {
            text-align: center;
            font-size: 2.3rem;
        }
+          .test {
+              text-align: center;
+              color: black;
+              font-size: xx-small;
+          }
+
+
+    }
 
 @media only screen and (max-width: 411px) {
     .wrap {
@@ -398,10 +420,22 @@ h1.header3 {
          text-align: center;
          font-size: 2rem;
      }
+     .test {
+         text-align: center;
+         color: black;
+         font-size: xx-small;
+     }
+     
        
 }
 
 
+@media only screen and (max-width: 375px) {
+      .test,
+      .lead4 {
+          display: none;
+      }
+}
 
 
 @media only screen and (max-width: 360px) {
@@ -427,4 +461,16 @@ h1.header3 {
            text-align: center;
            font-size: 2.3rem;
        }
+       .test {
+           text-align: center;
+           color: black;
+           font-size: xx-small;
+       }
+}
+
+@media only screen and (max-width: 320px) {
+    .lead4,
+    .test {
+       display: none;
+    }
 }
