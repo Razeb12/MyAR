@@ -55,6 +55,12 @@ nav {
     font-weight: bold;
     text-decoration: underline;
 }
+.wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+}
 #myVideo {
     position: absolute;
     right: 0;
