@@ -55,18 +55,13 @@ nav {
     font-weight: bold;
     text-decoration: underline;
 }
+
 .wrap {
+    background-image: url('img/5f0c3e5aba4a5.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     height: 100vh;
-}
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 h2.header {
@@ -214,7 +209,7 @@ h5.header5 {
 #demo {
     color: #3E6896;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     transform: scale(1);
     animation: pulse 2s infinite
 }
@@ -239,7 +234,7 @@ h6.header6 {
     color: white;
     text-align: center;
     font-size: 2rem;
-    margin-top: 5%;
+    margin-top: 15%;
 
 
 }
@@ -520,9 +515,6 @@ h3.header3 {
     .lead4 {
         display: none;
     }
-      #demo1 {
-          font-size: 1.2rem;
-      }
 
 
 }
@@ -534,10 +526,6 @@ h3.header3 {
     .lead4 {
         display: none;
     }
-      #demo1 {
-          font-size: 30px;
-      }
-
 }
 
 
@@ -593,9 +581,8 @@ h3.header3 {
         font-size: 18px;
     }
     #demo1 {
-        font-size: 30px;
+        font-size: 18pxpx;
     }
 
 
 }
-
