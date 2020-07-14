@@ -1,10 +1,9 @@
 * {
-    font-family: 'Nunito',
+    font-family: century-gothic,
         sans-serif;
     font-weight: normal;
     margin: 0;
     padding: 0;
-   
     line-height: 1.7;
 }
 
@@ -70,6 +69,13 @@ h2.header {
     text-align: center;
     transform: scale(1);
     animation: pulse 2s infinite;
+
+}
+
+h5.header5 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
 
 }
 
@@ -148,6 +154,25 @@ h2.header {
     background-size: contain;
 }
 
+.soon {
+    background-image: url('img/5f0c4beba97d7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    position: relative;
+
+}
+
+.layer1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
 .images {
     margin-right: auto;
     margin-left: auto;
@@ -184,6 +209,14 @@ h2.header {
 #demo {
     color: #3E6896;
     text-align: center;
+    font-size: 3rem;
+    transform: scale(1);
+    animation: pulse 2s infinite
+}
+
+#demo1 {
+    color: white;
+    text-align: center;
     font-size: 4rem;
     transform: scale(1);
     animation: pulse 2s infinite
@@ -194,6 +227,15 @@ h1.header1 {
     text-align: center;
     transform: scale(1);
     animation: pulse 2s infinite;
+
+}
+
+h6.header6 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+
 
 }
 
@@ -230,6 +272,7 @@ h3.header3 {
     text-align: center;
     font-size: xx-large;
 }
+
 .test {
     text-align: center;
     color: black;
@@ -288,11 +331,13 @@ h3.header3 {
 .input-group {
     width: 200px;
 }
+
 .social {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .social a {
     font-size: 50px;
     padding: 1.5rem;
@@ -306,6 +351,11 @@ h3.header3 {
 
 .social a .fa-twitter {
     color: #00aced;
+}
+
+.card-body {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -386,7 +436,7 @@ h3.header3 {
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
-        height: ;
+
     }
 }
 
@@ -419,11 +469,18 @@ h3.header3 {
         font-size: 2.3rem;
     }
 
-    .test, 
-    .lead4{
+    .test,
+    .lead4 {
         display: none;
     }
 
+    #demo1 {
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        transform: scale(1);
+        animation: pulse 2s infinite
+    }
 
 }
 
@@ -458,6 +515,9 @@ h3.header3 {
     .lead4 {
         display: none;
     }
+      #demo1 {
+          font-size: 1.2rem;
+      }
 
 
 }
@@ -469,6 +529,10 @@ h3.header3 {
     .lead4 {
         display: none;
     }
+      #demo1 {
+          font-size: 30px;
+      }
+
 }
 
 
@@ -512,10 +576,21 @@ h3.header3 {
     .test {
         display: none;
     }
+
     .social a {
-        font-size: 15px;
+        font-size: 45px;
         padding: 1.5rem;
 
     }
+    h3.header3 {
+        color: #3E6896;
+        text-align: center;
+        font-size: 18px;
+    }
+    #demo1 {
+        font-size: 30px;
+    }
+
 
 }
+
