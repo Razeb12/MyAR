@@ -55,14 +55,6 @@ nav {
     font-weight: bold;
     text-decoration: underline;
 }
-
-.wrap {
-    background-image: url('img/Welcome\ -\ 24829.mp4');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100vh;
-}
 #myVideo {
     position: absolute;
     right: 0;
