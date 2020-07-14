@@ -1,5 +1,7 @@
+
+
 $(document).ready(function () {
-    $('.gallerys').magnificPopup({
+    $('#solfas-testimonial').magnificPopup({
         type: 'image',
         delegate: 'a',
         gallery: {
@@ -7,6 +9,7 @@ $(document).ready(function () {
         }
     });
 });
+
 
 
 
@@ -20,4 +23,12 @@ $(function () {
     });
 });
 
-
+$(function () {
+    $('a.smooth-scroll').click(function (event) {
+        event.preventDefault();
+        var section = $(this).attri("href");
+        $('html,body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});
