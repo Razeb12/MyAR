@@ -35,7 +35,7 @@ nav {
 }
 
 .navbar-toggler {
-    background-color: Red;
+    background-color: white;
 }
 
 .navbar-nav li {
@@ -108,7 +108,7 @@ h5.header5 {
     text-align: center;
     font-size: larger;
     color: white;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .lead1 {
@@ -368,7 +368,13 @@ h3.header3 {
     margin-right: auto;
     display: absolute;
 }
-
+.ink {
+    width: auto;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media only screen and (max-width: 1024px) {
     .wrap {
         background-size: cover;
@@ -647,7 +653,7 @@ h3.header3 {
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
-        height: 900px;
+        height: 1100px;
     }
 
     .layer {
@@ -656,7 +662,7 @@ h3.header3 {
         top: 0;
         left: 0;
         width: 100%;
-        height: 900px;
+        height: 1100px;
     }
 
     * {
