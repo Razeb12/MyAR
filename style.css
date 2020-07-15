@@ -240,7 +240,7 @@ h6.header6 {
     color: white;
     text-align: center;
     font-size: 2rem;
-    margin-top: 15%;
+    margin-top: 8%;
 
 
 }
@@ -360,9 +360,15 @@ h3.header3 {
 }
 
 .card-body {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 300px;
+    margin-right: 300px;
 }
+.spacex{
+    margin-left:auto;
+    margin-right: auto;
+    display: absolute;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .wrap {
@@ -398,6 +404,10 @@ h3.header3 {
         min-height: 100%;
 
     }
+     .card-body {
+         margin-left: auto;
+         margin-right: auto;
+     }
 
 }
 
@@ -447,11 +457,15 @@ h3.header3 {
         h6.header6 {
             font-size: 2.4rem;
         }
-      .navbar-nav .nav-link {
+        .navbar-nav .nav-link {
             font-size: 15px;
             font-weight: bolder;
             color: white;
 
+        }
+        .card-body {
+            margin-left: auto;
+            margin-right: auto;
         }
 }
 
@@ -533,6 +547,10 @@ h3.header3 {
           h6.lead2 {
               font-size: 18px;
           }
+          .card-body {
+              margin-left: auto;
+              margin-right: auto;
+          }
       
 
 }
@@ -589,6 +607,10 @@ h3.header3 {
         h6.lead2 {
             font-size: 18px;
         }
+        .card-body {
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
 
 
@@ -597,6 +619,10 @@ h3.header3 {
     .test,
     .lead4 {
         display: none;
+    }
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     
@@ -670,6 +696,10 @@ h3.header3 {
             font-size: 20px;
         
         }
+        .card-body {
+            margin-left: auto;
+            margin-right: auto;
+        }
     
     }
 
@@ -711,4 +741,9 @@ h3.header3 {
     #demo {
         font-size: 23px;
     }
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
