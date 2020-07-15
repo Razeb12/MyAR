@@ -240,7 +240,7 @@ h6.header6 {
     color: white;
     text-align: center;
     font-size: 2rem;
-    margin-top: 8%;
+    margin-top: 15%;
 
 
 }
@@ -368,7 +368,6 @@ h3.header3 {
     margin-right: auto;
     display: absolute;
 }
-
 
 @media only screen and (max-width: 1024px) {
     .wrap {
@@ -551,6 +550,10 @@ h3.header3 {
               margin-left: auto;
               margin-right: auto;
           }
+            h5.header5 {
+                font-size: 30px;
+            }
+            
       
 
 }
@@ -582,7 +585,7 @@ h3.header3 {
     }
     #demo1 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .test,
@@ -603,6 +606,9 @@ h3.header3 {
         }
         h3.header3 {
             font-size: 16px;
+        }
+        h5.header5 {
+            font-size: 30px;
         }
         h6.lead2 {
             font-size: 18px;
@@ -677,11 +683,11 @@ h3.header3 {
            line-height: 1.5;
        }
         h5.header5 {
-            font-size: 18px;
+            font-size: 30px;
         }
 
         h6.lead2 {
-            font-size: 18px;
+            font-size: 20px;
         }
 
         h6.header6 {
@@ -693,7 +699,7 @@ h3.header3 {
         }
 
         #demo1 {
-            font-size: 20px;
+            font-size: 30px;
         
         }
         .card-body {
