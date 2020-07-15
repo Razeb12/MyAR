@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     line-height: 1.7;
+    
 }
 
 nav {
@@ -62,20 +63,20 @@ nav {
     width: auto;
     height: 100vh;
 }
+
 #myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  
+
 }
+
 h2.header {
     color: white;
     text-align: center;
-    transform: scale(1);
-    animation: pulse 2s infinite;
-
+    font-size: 18px;
 }
 
 h5.header5 {
@@ -105,8 +106,15 @@ h5.header5 {
 
 
 .lead {
+    text-align: start;
+    font-size: 18px;
+    color: white;
+    line-height: 1.7;
+}
+
+.lead9 {
     text-align: center;
-    font-size: larger;
+    font-size: 18px;
     color: white;
     line-height: 1.7;
 }
@@ -125,6 +133,14 @@ h5.header5 {
     left: 0;
     width: 100%;
     height: 100vh;
+}
+
+h2.header8 {
+    font-size: 40px;
+    color: #3b5998;
+    text-align: center;
+    transform: scale(1);
+    animation: pulse 2s infinite;
 }
 
 .middle {
@@ -240,7 +256,7 @@ h6.header6 {
     color: white;
     text-align: center;
     font-size: 2rem;
-    margin-top: 15%;
+    margin-top: 8%;
 
 
 }
@@ -334,9 +350,6 @@ h3.header3 {
     }
 }
 
-.input-group {
-    width: 200px;
-}
 
 .social {
     display: block;
@@ -363,11 +376,13 @@ h3.header3 {
     margin-left: 300px;
     margin-right: 300px;
 }
-.spacex{
-    margin-left:auto;
+
+.spacex {
+    margin-left: auto;
     margin-right: auto;
     display: absolute;
 }
+
 .ink {
     width: auto;
     height: 550px;
@@ -375,6 +390,12 @@ h3.header3 {
     margin-left: auto;
     margin-right: auto;
 }
+span.color {
+    color: #3b5998;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
     .wrap {
         background-size: cover;
@@ -401,6 +422,7 @@ h3.header3 {
         color: black;
         font-size: large;
     }
+
     #myVideo {
         position: relative;
         right: 0;
@@ -409,14 +431,16 @@ h3.header3 {
         min-height: 100%;
 
     }
-     .card-body {
-         margin-left: auto;
-         margin-right: auto;
-     }
-         h3.header3 {
-             font-size: 18px;
-         }
-         
+
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3.header3 {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -448,37 +472,44 @@ h3.header3 {
         color: black;
         font-size: medium;
     }
-        #myVideo {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            display: inline;
 
-        }
-        .title {
-            font-size: 1.5rem;
-        }
-        #demo1{
-            font-size: 2rem;
-        }
-        h6.header6 {
-            font-size: 2.4rem;
-        }
-        .navbar-nav .nav-link {
-            font-size: 15px;
-            font-weight: bolder;
-            color: white;
+    #myVideo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        display: inline;
 
-        }
-        .card-body {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        h3.header3 {
-            font-size: 18px;
-        }
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    #demo1 {
+        font-size: 2rem;
+    }
+
+    h6.header6 {
+        font-size: 2.4rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 15px;
+        font-weight: bolder;
+        color: white;
+
+    }
+
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3.header3 {
+        font-size: 18px;
+    }
 }
 
 
@@ -541,33 +572,54 @@ h3.header3 {
         transform: scale(1);
         animation: pulse 2s infinite
     }
-       #myVideo {
-           position: relative;
-           right: 0;
-           bottom: 0;
-           min-width: 100%;
-           min-height: 100%;
 
-       }
-       .title  {
-           font-size: 1.5rem;
-       }
-          h3.header3 {
-              font-size: 16px;
-          }
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
 
-          h6.lead2 {
-              font-size: 18px;
-          }
-          .card-body {
-              margin-left: auto;
-              margin-right: auto;
-          }
-            h5.header5 {
-                font-size: 30px;
-            }
-            
-      
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    h3.header3 {
+        font-size: 16px;
+    }
+
+    h6.lead2 {
+        font-size: 18px;
+    }
+
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h5.header5 {
+        font-size: 30px;
+    }
+
+    .ink {
+        width: auto;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2.header {
+        font-size: 18px;
+    }
+    h6.lead {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
 
 }
 
@@ -596,6 +648,7 @@ h3.header3 {
         text-align: center;
         font-size: 2rem;
     }
+
     #demo1 {
         text-align: center;
         font-size: 2.5rem;
@@ -605,31 +658,77 @@ h3.header3 {
     .lead4 {
         display: none;
     }
-       #myVideo {
-           position: relative;
-           right: 0;
-           bottom: 0;
-           min-width: 100%;
-           min-height: 100%;
 
-       }
-        .title {
-            font-size: 1.7rem;
-            color: #3E6896;
-        }
-        h3.header3 {
-            font-size: 16px;
-        }
-        h5.header5 {
-            font-size: 30px;
-        }
-        h6.lead2 {
-            font-size: 18px;
-        }
-        .card-body {
-            margin-left: auto;
-            margin-right: auto;
-        }
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+
+    }
+
+    .title {
+        font-size: 1.7rem;
+        color: #3E6896;
+    }
+
+    h3.header3 {
+        font-size: 16px;
+    }
+
+    h5.header5 {
+        font-size: 30px;
+    }
+
+    h6.lead2 {
+        font-size: 18px;
+    }
+
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ink {
+        width: auto;
+        height: 330px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h6.lead {
+        text-align: center;
+        font-size: 13px;
+        color: white;
+        line-height: 1.7;
+    }
+
+    h6.lead1 {
+        text-align: center;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    h2.header {
+        font-size: 14px;
+    }
+
+    h2.header8 {
+        font-size: 30px;
+        color: #3b5998;
+        text-align: center;
+    }
+
+    h1.header1 {
+        font-size: 28px;
+    }
+
+    h6.title.mt-5 {
+        font-size: 20px;
+    }
+
 }
 
 
@@ -639,12 +738,24 @@ h3.header3 {
     .lead4 {
         display: none;
     }
+
     .card-body {
         margin-left: auto;
         margin-right: auto;
     }
 
-    
+    .ink {
+        width: auto;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h6.lead {
+        text-align: center;
+    }
+
+
 }
 
 
@@ -668,6 +779,7 @@ h3.header3 {
     * {
         overflow-x: hidden;
     }
+
     h3.header3 {
         font-size: 18px;
     }
@@ -677,50 +789,74 @@ h3.header3 {
         color: black;
         font-size: xx-small;
     }
-       #myVideo {
-           position: relative;
-           right: 0;
-           bottom: 0;
-           min-width: 100%;
-           min-height: 100%;
 
-       }
-       .title {
-           font-size: 1.5rem;
-           color: #3E6896;
-       }
-       .lead {
-           text-align: center;
-           font-size: small;
-           color: white;
-           line-height: 1.5;
-       }
-        h5.header5 {
-            font-size: 30px;
-        }
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
 
-        h6.lead2 {
-            font-size: 20px;
-        }
-
-        h6.header6 {
-            font-size: 28px;
-        }
-
-        #demo {
-            font-size: 20px;
-        }
-
-        #demo1 {
-            font-size: 30px;
-        
-        }
-        .card-body {
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
     }
+
+    .title {
+        font-size: 1.5rem;
+        color: #3E6896;
+    }
+
+    h5.header5 {
+        font-size: 30px;
+    }
+
+    h6.lead2 {
+        font-size: 20px;
+    }
+
+    h6.header6 {
+        font-size: 28px;
+    }
+
+    #demo {
+        font-size: 20px;
+    }
+
+    #demo1 {
+        font-size: 30px;
+
+    }
+
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ink {
+        width: auto;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h6.lead {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        line-height: 1.7;
+    }
+
+    h2.header {
+        font-size: 16px;
+    }
+
+    h2.header8 {
+        font-size: 30px;
+        color: #3b5998;
+        text-align: center;
+    }
+
+
+}
 
 @media only screen and (max-width: 320px) {
 
@@ -734,35 +870,46 @@ h3.header3 {
         padding: 1.5rem;
 
     }
+
     h3.header3 {
         color: #3E6896;
         text-align: center;
         font-size: 18px;
     }
+
     #demo1 {
         font-size: 23px;
     }
+
     .lead {
         text-align: center;
         font-size: 12px;
         color: white;
         line-height: 1.5;
     }
+
     h5.header5 {
         font-size: 28px;
     }
+
     h6.lead2 {
         font-size: 18px;
     }
+
     h6.header6 {
         font-size: 28px;
     }
+
     #demo {
         font-size: 23px;
     }
+
     .card-body {
         margin-left: auto;
         margin-right: auto;
     }
-}
 
+    h6.lead {
+        font-size: 16px;
+    }
+}
