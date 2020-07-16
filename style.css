@@ -276,7 +276,7 @@ h2.header10 {
     color: white;
     font-size: 2.5rem;
     color: #3E6896;
-    
+
 }
 
 h1.header2 {
@@ -423,43 +423,43 @@ span.color {
 }
 
 @media only screen and (max-width:1920px) {
-         .space {
-             display: block;
-             margin-left: 550px;
-             margin-right: auto;
-         }
+    .space {
+        display: block;
+        margin-left: 550px;
+        margin-right: auto;
+    }
 
-         .form-inline input {
-             vertical-align: middle;
-             padding-top: 10px;
-             padding-bottom: 10px;
-             background-color: rgba(62, 104, 150, 0.3);
-             ;
-             border: 1px solid #ddd;
-             border-radius: 10px;
-             margin-right: auto;
-             margin-left: auto;
-         }
+    .form-inline input {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(62, 104, 150, 0.3);
+        ;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media only screen and (max-width:1366px) {
-         .space {
-             display: block;
-             margin-left: 400px;
-             margin-right: auto;
-         }
+    .space {
+        display: block;
+        margin-left: 400px;
+        margin-right: auto;
+    }
 
-         .form-inline input {
-             vertical-align: middle;
-             padding-top: 10px;
-             padding-bottom: 10px;
-             background-color: rgba(62, 104, 150, 0.3);
-             ;
-             border: 1px solid #ddd;
-             border-radius: 10px;
-             margin-right: auto;
-             margin-left: auto;
-         }
+    .form-inline input {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(62, 104, 150, 0.3);
+        ;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -506,23 +506,24 @@ span.color {
     h3.header3 {
         font-size: 18px;
     }
-         .space {
-             display: block;
-             margin-left: 150px;
-             margin-right: auto;
-         }
 
-         .form-inline input {
-             vertical-align: middle;
-             padding-top: 10px;
-             padding-bottom: 10px;
-             background-color: rgba(62, 104, 150, 0.3);
-             ;
-             border: 1px solid #ddd;
-             border-radius: 10px;
-             margin-right: auto;
-             margin-left: auto;
-         }
+    .space {
+        display: block;
+        margin-left: 150px;
+        margin-right: auto;
+    }
+
+    .form-inline input {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(62, 104, 150, 0.3);
+        ;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 
 }
@@ -593,12 +594,27 @@ span.color {
     h3.header3 {
         font-size: 18px;
     }
+
     .space {
         display: block;
         margin-left: auto;
         margin-right: auto;
-       
+
     }
+     .time {
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     #email {
+         text-align: center;
+     }
+
+     .form-inline button {
+         margin-left: auto;
+         margin-right: auto;
+     }
+
 }
 
 
@@ -621,15 +637,15 @@ span.color {
     }
 }
 
-@media only screen and (max-width: 762){
-     .layer {
-         background-color: rgba(0, 0, 0, 0.7);
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 1200px;
-     }
+@media only screen and (max-width: 762) {
+    .layer {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1200px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -729,22 +745,36 @@ span.color {
         text-align: center;
         font-size: 25px;
     }
-     .space {
-         display: block;
-         margin-left: 40px;
+
+    .space {
+        display: block;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .form-inline input {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(62, 104, 150, 0.3);
+        ;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+     .time {
+         margin-left: 30px;
          margin-right: auto;
      }
 
-     .form-inline input {
-         vertical-align: middle;
-         padding-top: 10px;
-         padding-bottom: 10px;
-         background-color: rgba(62, 104, 150, 0.3);
-         ;
-         border: 1px solid #ddd;
-         border-radius: 10px;
-         margin-right: auto;
+     #email {
+         text-align: center;
+     }
+
+     .form-inline button {
          margin-left: auto;
+         margin-right: auto;
      }
 
 
@@ -757,7 +787,7 @@ span.color {
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
-        height: 900px;
+        height: 1000px;
     }
 
     .layer {
@@ -766,7 +796,7 @@ span.color {
         top: 0;
         left: 0;
         width: 100%;
-        height: 900px;
+        height: 1000px;
     }
 
     * {
@@ -865,26 +895,38 @@ span.color {
 
     h2.header10 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
-     .space {
-         display: block;
-         margin-left: 40px;
-         margin-right: auto;
-     }
 
-     .form-inline input {
-         vertical-align: middle;
-         padding-top: 10px;
-         padding-bottom: 10px;
-         background-color: rgba(62, 104, 150, 0.3);
-         ;
-         border: 1px solid #ddd;
-         border-radius: 10px;
-         margin-right: auto;
-         margin-left: auto;
-     }
+    .space {
+        display: block;
+        margin-left: 40px;
+        margin-right: auto;
+    }
 
+    .form-inline input {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(62, 104, 150, 0.3);
+        ;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .time {
+     margin-left: 30px;
+     margin-right: auto;
+    }
+    #email {
+        text-align: center;
+    }
+  
+    .form-inline button {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 }
@@ -1023,11 +1065,13 @@ span.color {
         text-align: center;
         font-size: 25px;
     }
+
     .space {
-        display:block;
+        display: block;
         margin-left: 50px;
         margin-right: auto;
     }
+
     .form-inline input {
         vertical-align: middle;
         padding-top: 10px;
@@ -1048,7 +1092,7 @@ span.color {
         color: white;
         border-radius: 10px;
     }
-    
+
 
 
 
