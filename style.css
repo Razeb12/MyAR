@@ -131,7 +131,7 @@ h5.header5 {
 }
 
 .lead1 {
-    text-align: center;
+    text-align: start;
     font-size: larger;
     color: black;
     line-height: 1.7;
@@ -349,7 +349,7 @@ h3.header3 {
 .title::after {
     content: '';
     background-color: #3E6896;
-    width: 200px;
+    width: 150px;
     height: 10px;
     display: block;
     margin-left: 80px;
@@ -374,8 +374,8 @@ h3.header3 {
     }
 
     50% {
-        -webkit-transform: translateX(3.5rem);
-        transform: translateX(3.5rem);
+        -webkit-transform: translateX(1.5rem);
+        transform: translateX(1.5rem);
     }
 
     100% {
@@ -1332,6 +1332,7 @@ span.color {
     border: 1px solid #ddd;
     color: white;
     border-radius: 10px;
+    width: 160px;
 }
 
 .form-inline button:hover {
