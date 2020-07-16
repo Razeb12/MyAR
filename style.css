@@ -276,8 +276,7 @@ h2.header10 {
     color: white;
     font-size: 2.5rem;
     color: #3E6896;
-    transform: scale(1);
-    animation: pulse 2s infinite
+    
 }
 
 h1.header2 {
@@ -423,7 +422,45 @@ span.color {
     color: #3b5998;
 }
 
+@media only screen and (max-width:1920px) {
+         .space {
+             display: block;
+             margin-left: 550px;
+             margin-right: auto;
+         }
 
+         .form-inline input {
+             vertical-align: middle;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             background-color: rgba(62, 104, 150, 0.3);
+             ;
+             border: 1px solid #ddd;
+             border-radius: 10px;
+             margin-right: auto;
+             margin-left: auto;
+         }
+}
+
+@media only screen and (max-width:1366px) {
+         .space {
+             display: block;
+             margin-left: 400px;
+             margin-right: auto;
+         }
+
+         .form-inline input {
+             vertical-align: middle;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             background-color: rgba(62, 104, 150, 0.3);
+             ;
+             border: 1px solid #ddd;
+             border-radius: 10px;
+             margin-right: auto;
+             margin-left: auto;
+         }
+}
 
 @media only screen and (max-width: 1024px) {
     .wrap {
@@ -469,6 +506,23 @@ span.color {
     h3.header3 {
         font-size: 18px;
     }
+         .space {
+             display: block;
+             margin-left: 210px;
+             margin-right: auto;
+         }
+
+         .form-inline input {
+             vertical-align: middle;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             background-color: rgba(62, 104, 150, 0.3);
+             ;
+             border: 1px solid #ddd;
+             border-radius: 10px;
+             margin-right: auto;
+             margin-left: auto;
+         }
 
 
 }
