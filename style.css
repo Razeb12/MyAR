@@ -833,7 +833,7 @@ span.color {
 
     .ink {
         width: auto;
-        height: 300px;
+        height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -844,7 +844,7 @@ span.color {
     }
 
     h6.lead {
-        font-size: 17px;
+        font-size: 14px;
         text-align: center;
         line-height: 1.4;
     }
@@ -971,7 +971,7 @@ span.color {
 
     .ink {
         width: auto;
-        height: 330px;
+        height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -979,7 +979,7 @@ span.color {
 
     h6.lead {
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         line-height: 1.5;
     }
@@ -1072,7 +1072,7 @@ span.color {
 
     .ink {
         width: auto;
-        height: 300px;
+        height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -1165,7 +1165,7 @@ span.color {
 
     .ink {
         width: auto;
-        height: 300px;
+        height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
