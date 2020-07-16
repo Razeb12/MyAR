@@ -526,6 +526,9 @@ span.color {
             margin-left: 400px;
             margin-right: auto;
         }
+         #email {
+             padding-left: 20px;
+         }
 
 }
 
@@ -546,10 +549,15 @@ span.color {
         border-radius: 10px;
         margin-right: auto;
         margin-left: auto;
+        
+        
+    }
+     #email  {
+     padding-left: 20px;
     }
         .ct-btn-scroll {
             display: flex;
-            margin-left: 260px;
+            margin-left: 270px;
             margin-right: auto;
           
         }
@@ -707,9 +715,7 @@ span.color {
         margin-right: auto;
     }
 
-    #email {
-        text-align: center;
-    }
+    
 
     .form-inline button {
         margin-left: auto;
